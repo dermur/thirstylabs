@@ -3,20 +3,27 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+
+ html {
+   scroll-behavior: smooth;
+ }
+
+
 header {
   padding: 156px 0 100px;
 }
 
 section {
-  padding: 150px 0;
+  padding: 50px 0;
 }
 
 h1{
 
 }
 
-.head {
+.classhead {
   color: #Ff00e5;
+  font-size: 60px;
 }
 
 p {
@@ -24,7 +31,78 @@ p {
   font-size: 20px;
 }
 
+.head {
+  color: #Ff00e5;
+}
+
 .lead {
   color: white ;
+  font-size: 20px;
+}
+
+btn {
+
+}
+.btn-only {
+  background-color: #060028 ;
+  border-color: #ccff00 ;
+  color: #ccff00 ;
+  border-radius: 0px;
+  font-size: 20px;
+}
+
+.btn-only:hover {
+  background-color: #ccff00; /* Green */
+  color: #060028;
+}
+
+/* Mailchimp Form Styling */
+
+#mc_embed_signup {
+
+}
+
+input {
+        display: block;
+        min-height: 50px;
+        width: 100%;
+        padding: 6px;
+        border: 1px solid #4f4f4f;
+        border-radius: 0px;
+        box-shadow: rgba(10, 10, 10, .05) 0 1px 4px 0 inset;
+        background-color: #060028 ;
+
+    }
+
+.button {
+  background-color: #060028 ;
+  border-color: #ccff00 ;
+  color: #ccff00 ;
+  border-radius: 0px;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: #ccff00; /* Green */
+  color: #060028;
+  border-color: #ccff00 ;
+  border-radius: 0px;
+  font-size: 20px;
+}
+
+div.mc-field-group {
+  background-color: #060028 ;
+
+}
+
+div.mc-field-group label	{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+}
+
+div.mc-field-group input {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
   font-size: 20px;
 }
