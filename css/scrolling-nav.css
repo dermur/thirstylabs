@@ -10,3 +10,21 @@ header {
 section {
   padding: 150px 0;
 }
+
+h1{
+
+}
+
+.head {
+  color: #Ff00e5;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+}
+
+.lead {
+  color: white ;
+  font-size: 20px;
+}
